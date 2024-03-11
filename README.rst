@@ -1,6 +1,10 @@
 Decimal Time as Epoch Day (ED)
 ==============================
 
+**Deprecated**: Use `eday <https://github.com/mindey/eday>`__ package, which implements a simpler, ``datetime.datime <-> float (ED)`` conversion.
+
+-----
+
 Imagine decimal representation of days of `UNIX seconds <https://en.wikipedia.org/wiki/Unix_time>`__, call it "Epoch Days".
 
 Then, imagine grouping the digits of such days representation as follows:
